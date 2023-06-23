@@ -869,6 +869,7 @@ pre code {
   .col-sm-10 {
     flex: 0 0 83.33333%;
     max-width: 83.33333%;
+    box-shadow: .5rem .5rem rgba(255, 255, 255, 0);
   }
   .col-sm-11 {
     flex: 0 0 91.66667%;
@@ -1756,6 +1757,7 @@ pre code {
   border: 1px solid #222;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  box-shadow: 0.2rem .2rem rgba(255, 255, 255, 0.32);
 }
 @media (prefers-reduced-motion: reduce) {
   .form-control {
