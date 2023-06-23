@@ -62,7 +62,7 @@ body {
   font-size: 0.9375rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #dee2e6;
+  color: #ffffff;
   text-align: left;
   background-color: #000000;
 }
@@ -4145,10 +4145,11 @@ input[type="submit"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #303030;
+  background-color: #000000;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid rgba(31, 31, 31, 0.125);
   border-radius: 0.25rem;
+  box-shadow: 0.3rem 0.3rem rgba(255, 255, 255, 0.425);
 }
 .card > hr {
   margin-right: 0;
@@ -4192,7 +4193,7 @@ input[type="submit"].btn-block {
 .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  background-color: #444;
+  background-color: #000000;
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 .card-header:first-child {
@@ -4203,7 +4204,7 @@ input[type="submit"].btn-block {
 }
 .card-footer {
   padding: 0.75rem 1.25rem;
-  background-color: #444;
+  background-color: #292828;
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 .card-footer:last-child {
@@ -6823,7 +6824,7 @@ button.bg-dark:hover {
   white-space: normal;
 }
 .shadow-sm {
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  box-shadow: 0 0.5rem 0.25rem rgba(255, 255, 255, 0.1) !important;
 }
 .shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
